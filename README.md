@@ -1,6 +1,6 @@
 # PORTAL
 
-
+## INFORMACIÓN DEL PROYECTO
 Este proyecto trata de un portal de centros al que pueden iniciar sesión, alumnos, profesores y empleados de Accenture.  
 La idea es que en la base de datos ya haya registrados profesores y empleados de Accenture.  
 El portal cuenta con un login, un registro especificamente de alumnos, y la página principal, la cual dependiendo de tu rol verás una información u otra.  
