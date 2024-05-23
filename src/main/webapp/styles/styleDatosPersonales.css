@@ -1,0 +1,170 @@
+* {
+	font-family: "Jost", sans-serif;
+}
+
+body {
+	height: 90vh; display : flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.tarjetaPersonal {
+	display: flex;
+	width: fit-content;
+	height: fit-content;
+	border: 2px solid #a100ff;																																		
+	border-radius: 15px;
+	padding: 10px;
+    	box-shadow: 0px 0px 6px 3px #a100ff;
+    	font-size: large;
+}
+
+.h1dp{
+	font-size: 40px;
+	margin-bottom: 50px;
+	color: #A100FF;
+}
+
+
+.ladoIzquierdoTarjeta {
+	display: flex;
+	justify-content: space-around;
+	width: 30vw;
+	color: #a100ff;
+}
+
+.columna {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.ladoDerechoTarjeta {
+	display: flex;
+	width: 15vw;
+	justify-content: center;
+	align-items: center;
+}
+
+.message {
+	color: red;
+	font-weight: bold;
+}
+
+.error {
+	margin-top: 15px;
+	color: red;
+	font-weight: bold;
+	visibility: hidden;
+}
+
+#forms {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+
+.login {
+	padding:4em;
+	padding-bottom:25px;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	border-radius:30px;
+}
+
+.input_container label{
+	position: absolute;
+	left:5px;
+	top:1.5px;
+	pointer-events:none;
+	padding: 4px;
+}
+
+.input_container{
+	width:100%;
+	position: relative;
+	margin-bottom: 10px;
+	margin-top: 2%;
+}
+
+.input_container input{
+	width:350px;
+	padding: 5px ;
+	padding-left: 8px;
+}
+
+input {
+	padding-left: 8px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	border: 1.8px #A100FF solid;
+	font-size: 15px;
+	padding: 5px ;
+}
+ 
+.input_container input:focus ~ label, .input_container input:valid ~ label {
+	top:-10px;
+	left:10px;
+	padding: 0 2px;
+	background: white;
+	font-size:12px;
+	transition: 0.3s ;
+}
+ 
+.input_container input:focus {
+    outline: none;
+}
+
+.register-button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  color: white;
+}
+
+.register-button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+.container-button {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#delete-button {
+	display: inline-block;
+	padding: 0.75rem 1.25rem;
+	border-radius: 10rem;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 0.15rem;
+	transition: all 0.3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	cursor: pointer;
+	color: white;
+}
+
+#delete-button:hover {background-color: red;}
